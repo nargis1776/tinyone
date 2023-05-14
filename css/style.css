@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header {
+    background: #fcdb00;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.header-intro div:first-child {
+    float: left;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.header-intro,
+.data {
+    overflow: hidden;
+}
+
+.header-intro div:last-child {
+    float: right;
+    margin-top: 60px;
+}
+
+.header-intro ul li {
+    display: inline;
+}
+
+.header-intro ul li:last-child a {
+    margin-right: 0;
+}
+
+.header-intro a {
+    text-decoration: none;
+    margin-right: 65px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #010101;
+}
+
+.data div {
+    float: left;
+    margin-bottom: 105px;
+}
+
+.data div:first-child {
+    width: 390px;
+    margin-right: 190px;
+}
+
+.data h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #010101;
+    padding: 130px 0 22px;
+}
+
+.data h2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #313841
+}
+
+.data p {
+    color: #313841;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 23px 0 0;
+}
+
+.data i {
+    margin: 40px 36px 0 0;
+}
+
+/* .fa-apple {
+    color: #000;
+    font-size: 34px;
+    padding: 21px 36px 0 0;
+}
+
+.fa-android {
+    font-size: 36px;
+    padding: 21px 36px 0 0;
+}
+
+.fa-windows {
+    font-size: 40px;
+    padding: 21px 36px 0 0;
+} */
+
+.data img {
+    margin-top: 68px;
+}
+
+.feature {
+    padding: 115px 0;
+}
+
+.feature-header {
+    width: 638px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.feature-row {
+    overflow: hidden;
+    margin-top: 85px;
+}
+
+.feature-row > div {
+    float: left;
+    width: 279px;
+    margin: 0 45px 0 0;
+}
+
+.feature-row div:last-child {
+    margin: 0;
+}
+
+.feature-details div {
+    float: left;
+}
+
+.feature-details div:first-child {
+    width: 67px;
+}
+
+.feature-details div:last-child {
+    width: 212px;
+}
+
+.feature-row p {
+    color: #898989;
+    font-weight:400;
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+.feature-row h1 {
+    color: #000;
+    font-weight:400;
+    font-size: 22px;
+}
+
+.feature-header h1 {
+    color: #010101;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.feature-header p {
+    font-size: 20px;
+    color: #313841;
+    font-weight: 400;
+}
+
+.contact {
+    background: #000;
+    color: #ffffff;
+}
+
+.contact-intro {
+    width: 747px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 95px;
+}
+
+.contact-intro h1 {
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contact-intro i {
+    color: #fcdb00;
+    text-align: center;
+    margin-right: 45px;
+}
+
+.contact-intro p {
+    font-size: 20px;
+    color: #898989;
+    font-weight: 400;
+    padding: 15px 0 23px 0;
+}
+
+.footer-data {
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 85px 0 95px 0;
+}
+
+.footer-data div {
+    float: left;
+    width: 155px;
+}
+
+.footer-data div:first-child {
+    width: 288px;
+}
+
+.footer-data ul {
+    list-style: none;
+}
+
+.footer-data a {
+    text-decoration: none;
+    color: #ffffff;
+}
